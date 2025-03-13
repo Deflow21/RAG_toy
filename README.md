@@ -18,7 +18,7 @@ pip install torch transformers sentence-transformers psycopg2 fitz[pymupdf] pill
 ```
 
 ### 2. Настройка базы данных PostgreSQL
-Перед началом работы необходимо настроить базу данных PostgreSQL. Убедитесь, что установлен расширенный поиск по векторным данным (pgvector):
+Перед началом работы необходимо настроить базу данных PostgreSQL. Убедитесь, что установлен расширенный поиск по векторным данным [pgvector](https://github.com/pgvector/pgvector):
 ```sql
 CREATE EXTENSION IF NOT EXISTS vector;
 ```
