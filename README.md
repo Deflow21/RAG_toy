@@ -31,8 +31,9 @@ CREATE TABLE gost_documents (
 );
 ```
 
-Настройте параметры подключения к базе данных в файлах `GOSTS_BD.py` и `generate_json_rag.py`:
-```python
+<p><span style="color: red; font-weight: bold;">Настройте параметры подключения к базе данных в файлах <code>GOSTS_BD.py</code> и <code>generate_json_rag.py</code>:</span></p>
+
+<pre style="background-color: black; color: lime; padding: 10px;">
 conn = psycopg2.connect(
     dbname="postgres",
     user="postgres",
@@ -40,7 +41,8 @@ conn = psycopg2.connect(
     host="localhost",
     port=5432
 )
-```
+</pre>
+
 
 ---
 
