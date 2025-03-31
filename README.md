@@ -1,13 +1,17 @@
 # RAG_toy
-alpha beta RAG for the final qualifying work
+alpha beta RAG for the graduation paper
 
 ![](pablo-james-pablo.gif)
 
 ### Project Structure
 - `download.py` - Downloads a zip file containing models from the ABC dataset; currently limited to one link and 1000 models (each link actually contains around 10k models) due to extremely slow processing.
+  
 - `BD_new.py` – Creates a MongoDB database and loads the data previously processed in `download.py`.
+  
 - `generate_json_rag.py` – Uses RAG to generate a JSON description of the technological process for processing a part, based on a drawing from the ABC dataset and data from the database.
+  
 - `genrate_without_RAG.py` – Generates output without using RAG at all.
+  
 - `model.py` – A test script for generation, simply to see how the model works.
 
 ---
