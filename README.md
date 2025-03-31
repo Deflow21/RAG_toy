@@ -1,76 +1,41 @@
 # RAG_toy
-Игрушечный RAG для ВКР
+alpha beta RAG for the final qualifying work
 
 ![](pablo-james-pablo.gif)
 
-### Структура проекта
-- `GOSTS_BD.py` – Извлекает текст из PDF-файлов ГОСТов, очищает его и загружает в базу данных PostgreSQL с использованием векторного поиска (pgvector).
-- `generate_json_rag.py` – Использует RAG для генерации JSON-описания технологического процесса обработки детали на основе чертежа и релевантных ГОСТов.
-- `model.py` – Тестовый скрипт для генерации JSON-описания технологического процесса без RAG, используя только модель Qwen2.5-VL-7B-Instruct.
+### Project Structure
+- `download.py` - Downloads a zip file containing models from the ABC dataset; currently limited to one link and 1000 models (each link actually contains around 10k models) due to extremely slow processing.
+- `BD_new.py` – Creates a MongoDB database and loads the data previously processed in `download.py`.
+- `generate_json_rag.py` – Uses RAG to generate a JSON description of the technological process for processing a part, based on a drawing from the ABC dataset and data from the database.
+- `genrate_without_RAG.py` – Generates output without using RAG at all.
+- `model.py` – A test script for generation, simply to see how the model works.
 
 ---
 
-## Установка и настройка
+## Installation and Setup
 
-### 1. Установка необходимых библиотек
+### 1. Installing the Required Libraries
 ```sh
-pip install torch transformers sentence-transformers psycopg2 fitz[pymupdf] pillow
+pip install -r requirements.txt
 ```
 
-### 2. Настройка базы данных PostgreSQL
-В VS code есть sqltools, удобно что там сразу можно конекшен прописать и БД поднять локально, и там же писать запросы. Перед началом работы необходимо настроить базу данных PostgreSQL. Убедитесь, что установлен расширенный поиск по векторным данным [pgvector](https://github.com/pgvector/pgvector):
-```sql
-CREATE EXTENSION IF NOT EXISTS vector;
-```
-Создайте таблицу для хранения ГОСТов:
-```sql
-CREATE TABLE gost_documents (
-    id SERIAL PRIMARY KEY,
-    filename TEXT,
-    content TEXT,
-    embedding VECTOR(384) -- Используемая модель даёт 384-мерные вектора
-);
-```
+### 2. Setting Up the MongoDB Database
+Visit the official MongoDB website to download, install, and run MongoDB. You will immediately be prompted to create a localhost—do so. No further action is required. Once you have loaded all the information into the database, you can verify in MongoDB to ensure everything is 100% in order.
 
-<p><span style="color: red; font-weight: bold;">Настройте параметры подключения к базе данных в файлах <code>GOSTS_BD.py</code> и <code>generate_json_rag.py</code>:</span></p>
-
-<pre style="background-color: black; color: lime; padding: 10px;">
-conn = psycopg2.connect(
-    dbname="postgres",
-    user="postgres",
-    password="ВАШ_ПАРОЛЬ",
-    host="localhost",
-    port=5432
-)
-</pre>
-
+<p><span style="color: red; font-weight: bold;">Configure the database connection parameters in the file <code>mongodb.env</code></span></p>
 
 ---
 
-## Использование
+## Usage (relevant for working in VSCode)
 
-### 1. Загрузка ГОСТов в базу данных
-Запустите `GOSTS_BD.py`, чтобы извлечь текст из PDF-файлов и сохранить их в PostgreSQL:
-```sh
-python GOSTS_BD.py
-```
+### 1. Downloading Files from the Selected Link
+Run `download.py` to download all the necessary files for loading on local machine
 
-### 2. Генерация JSON с использованием RAG
-Запустите `generate_json_rag.py`, передав изображение с чертежом:
-```sh
-python generate_json_rag.py
-```
+### 2. Generating JSON Using RAG
+Run `BD_new.py` to load the files into the database
 
-Скрипт:
-- Извлекает релевантные ГОСТы из БД.
-- Использует модель `Qwen/Qwen2.5-VL-7B-Instruct` для генерации JSON-описания процесса обработки детали.
+### 2. Generating JSON Using RAG
+Run `generate_json_rag.py`, providing an image of the model's drawing from the ABC dataset
 
-
-### 3. Тестирование модели без RAG
-Можно протестировать модель отдельно с помощью `model.py`:
-```sh
-python model.py
-```
-
-Этот скрипт просто передаёт изображение модели и получает JSON без поиска ГОСТов в БД.
-
+### 3. Testing the Model Without RAG
+You can test the model separately using `generate_without_RAG.py`
