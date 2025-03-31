@@ -4,6 +4,26 @@ from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 import torch
 from PIL import Image
 
+import numpy as np
+from pymongo import MongoClient
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "my_abc_db")
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "abc_documents")
+
+# Инициализируем модель эмбеддингов (желательно с GPU)
+model_embed = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', device='cuda')
+
+def get_mongo_collection():
+    client = MongoClient(MONGO_URI)
+    db = client[MONGO_DB_NAME]
+    collection = db[MONGO_COLLECTION]
+    return collection
+
 # === 1) ИНИЦИАЛИЗАЦИЯ МОДЕЛИ QWEN2.5-VL ===
 model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
 processor = AutoProcessor.from_pretrained(model_name)
@@ -14,34 +34,37 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
 )
 
 # === 2) ФУНКЦИЯ ДЛЯ ПОИСКА В БД ===
-def retrieve_feat_docs(query_text, top_k=3):
+def retrieve_feat_docs(query_text, model_id=None, top_k=3):
     """
-    Делает семантический поиск по doc_type='feat',
-    возвращает список (model_id, content).
+    Делает семантический поиск по doc_type='feat' в MongoDB,
+    возвращает список (model_id, content, similarity).
+    Если указан model_id, то ограничивает поиск только этой моделью.
     """
-    conn = psycopg2.connect(
-        dbname="postgres",
-        user="postgres",
-        password="113245",
-        host="localhost",
-        port=5432
-    )
-    cur = conn.cursor()
+    collection = get_mongo_collection()
+    
+    # Вычисляем эмбеддинг для запроса
+    query_embedding = model_embed.encode(query_text, batch_size=64).tolist()
+    query_vec = np.array(query_embedding)
+    
+    # Формируем условие поиска
+    search_filter = {"doc_type": "feat"}
+    if model_id is not None:
+        search_filter["model_id"] = model_id
 
-    model_embed = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-    query_embedding = model_embed.encode(query_text).tolist()
-
-    cur.execute("""
-        SELECT model_id, content
-        FROM abc_documents
-        WHERE doc_type = 'feat'
-        ORDER BY embedding <-> %s::vector
-        LIMIT %s;
-    """, (query_embedding, top_k))
-
-    results = cur.fetchall()
-    conn.close()
-    return results
+    docs = list(collection.find(search_filter, {"model_id": 1, "content": 1, "embedding": 1}))
+    
+    scored_docs = []
+    for d in docs:
+        doc_vec = np.array(d.get("embedding"))
+        if np.linalg.norm(query_vec) == 0 or np.linalg.norm(doc_vec) == 0:
+            sim = 0
+        else:
+            sim = np.dot(query_vec, doc_vec) / (np.linalg.norm(query_vec) * np.linalg.norm(doc_vec))
+        scored_docs.append((d["model_id"], d["content"], sim))
+    
+    # Сортируем по сходству по убыванию
+    scored_docs = sorted(scored_docs, key=lambda x: x[2], reverse=True)
+    return scored_docs[:top_k]
 
 
 # === 3) ОСНОВНАЯ ФУНКЦИЯ ГЕНЕРАЦИИ ОТВЕТА (RAG) ===
@@ -56,8 +79,10 @@ def generate_json_from_image_with_rag(image_path):
 
     # 3.2. Получаем релевантные документы (feat) по примеру запроса
     user_query = "3D model, curves, surfaces, manufacturing process"
-    relevant_docs = retrieve_feat_docs(user_query, top_k=15)
 
+    specific_model_id = "00000026"
+    relevant_docs = retrieve_feat_docs(user_query, model_id=specific_model_id, top_k=15)
+    
 
      
 
@@ -66,7 +91,7 @@ def generate_json_from_image_with_rag(image_path):
 
     if relevant_docs:
         contexts = []
-        for model_id, content in relevant_docs:
+        for model_id, content, sim in relevant_docs:
             truncated_content = content[:MAX_CONTEXT_LENGTH]
             contexts.append(f"[model_id={model_id}]\n{truncated_content}")
         feat_context = "\n\n".join(contexts)
