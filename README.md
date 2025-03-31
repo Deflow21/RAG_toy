@@ -18,7 +18,7 @@ alpha beta RAG for the graduation paper
 
 ## Installation and Setup
 
-### 1. Installing the Required Libraries
+### 1. Installing  required libraries
 ```sh
 pip install -r requirements.txt
 ```
