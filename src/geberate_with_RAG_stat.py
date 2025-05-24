@@ -7,103 +7,98 @@ from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor
 import torch
 from PIL import Image
 
-# Загружаем переменные окружения
+# === ЗАГРУЖАЕМ ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ ===
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://127.0.0.1:27017")
 MONGO_DB_NAME = os.getenv("MONGO_DB_NAME", "my_abc_db")
-MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "abc_documents")
+# Используем коллекцию для stat
+MONGO_COLLECTION = os.getenv("MONGO_COLLECTION", "stat_documents")
 
-# Глобальный клиент MongoDB (создается один раз)
+# Глобальный клиент MongoDB
 mongo_client = MongoClient(MONGO_URI)
 mongo_db = mongo_client[MONGO_DB_NAME]
 mongo_collection = mongo_db[MONGO_COLLECTION]
 
 def get_mongo_collection():
-    # Возвращаем глобально созданную коллекцию
     return mongo_collection
 
-# Инициализация модели эмбеддингов (рекомендуется использовать GPU)
+# === ИНИЦИАЛИЗАЦИЯ МОДЕЛИ ЭМБЕДДИНГОВ ===
 model_embed = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2', device='cuda')
 
 # === 1) ИНИЦИАЛИЗАЦИЯ МОДЕЛИ QWEN2.5-VL ===
 model_name = "Qwen/Qwen2.5-VL-7B-Instruct"
-processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
+processor = AutoProcessor.from_pretrained(model_name, use_fast=True, local_files_only=True)
 model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
     model_name,
     device_map="sequential",
     torch_dtype=torch.bfloat16
 )
 
-# === 2) ФУНКЦИЯ ДЛЯ ПОИСКА В БД ===
-def retrieve_feat_docs(query_text, model_id=None, top_k=3):
+
+# === 1) ФУНКЦИЯ ДЛЯ ПОИСКА В БД С DOC_TYPE='stat' ===
+def retrieve_stat_docs(query_text, model_id=None, top_k=3):
     """
-    Делает семантический поиск по doc_type='feat' в MongoDB,
-    возвращает список (model_id, content, similarity).
-    Если указан model_id, то ограничивает поиск только этой моделью.
+    Семантический поиск по doc_type='stat'.
+    Возвращает список кортежей (model_id, content, similarity).
+    Если указан model_id, ограничивает поиск.
     """
     collection = get_mongo_collection()
 
-    # Вычисляем эмбеддинг запроса
+    # Эмбеддинг запроса
     query_embedding = model_embed.encode(query_text, batch_size=64)
     query_vec = np.array(query_embedding)
     query_norm = np.linalg.norm(query_vec)
     if query_norm == 0:
         query_norm = 1e-10
 
-    # Формируем условие поиска
-    search_filter = {"doc_type": "feat"}
-    if model_id is not None:
+    # Фильтр поиска по stat
+    search_filter = {"doc_type": "stat"}
+    if model_id:
         search_filter["model_id"] = model_id
 
-    # Извлекаем документы из БД
+    # Загружаем документы из MongoDB
     docs = list(collection.find(search_filter, {"model_id": 1, "content": 1, "embedding": 1}).limit(1000000))
-
     if not docs:
         return []
 
-    # Собираем эмбеддинги в массив (векторизованный расчет)
+    # Собираем эмбеддинги и считаем нормы
     embeddings = np.array([np.array(doc.get("embedding", [])) for doc in docs])
     if embeddings.size == 0:
         return []
-
-    # Вычисляем нормы для каждого документа; заменяем 0 на малое значение, чтобы избежать деления на ноль
     doc_norms = np.linalg.norm(embeddings, axis=1)
     doc_norms[doc_norms == 0] = 1e-10
- 
-    # Вычисляем cosine similarity для всех документов сразу
-    sims = np.dot(embeddings, query_vec) / (doc_norms * query_norm)
 
+    # Косинусная схожесть
+    sims = np.dot(embeddings, query_vec) / (doc_norms * query_norm)
     scored_docs = [(doc["model_id"], doc["content"], sim) for doc, sim in zip(docs, sims)]
-    # Сортировка по убыванию схожести
-    scored_docs = sorted(scored_docs, key=lambda x: x[2], reverse=True)
+    scored_docs.sort(key=lambda x: x[2], reverse=True)
     return scored_docs[:top_k]
 
-# === 3) ОСНОВНАЯ ФУНКЦИЯ ГЕНЕРАЦИИ ОТВЕТА (RAG) ===
-def generate_json_from_image_with_rag(image_path):
+# === 2) ОСНОВНАЯ ФУНКЦИЯ RAG С DOC_TYPE='stat' ===
+def generate_json_from_image_with_rag_stat(image_path):
     """
-    Генерирует JSON-описание технологического процесса изготовления детали,
-    используя релевантные данные из doc_type='feat' (RAG).
+    RAG с использованием документов stat для генерации JSON-описания.
     """
-    # 3.1. Загрузка изображения
+    # Загрузка изображения
     image = Image.open(image_path).convert("RGB")
 
-    # 3.2. Получаем релевантные документы по примеру запроса
+    # Пример запроса и получение релевантных stat-документов
     user_query = "3D model, curves, surfaces, manufacturing process"
-    relevant_docs = retrieve_feat_docs(user_query, model_id=None, top_k=15)
-    
-    # Ограничиваем длину контекста
+    relevant_docs = retrieve_stat_docs(user_query, model_id=None, top_k=15)
+
+    # Ограничение длины контекста
     MAX_CONTEXT_LENGTH = 1200
     if relevant_docs:
         contexts = []
         for model_id, content, sim in relevant_docs:
-            truncated_content = content[:MAX_CONTEXT_LENGTH]
-            contexts.append(f"[model_id={model_id}]\n{truncated_content}")
-        feat_context = "\n\n".join(contexts)
+            truncated = content[:MAX_CONTEXT_LENGTH]
+            contexts.append(f"[model_id={model_id}]\n{truncated}")
+        stat_context = "\n\n".join(contexts)
     else:
-        feat_context = "No matching document found."
+        stat_context = "No matching stat document found."
 
-    # 3.3. Подготовка основного промпта (на английском)
+    # Подготавливаем оригинальный промпт (тот же, что и для feat)
     original_english_prompt = """Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
 1. File name: the name of the input file with the drawing.
 2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
@@ -157,31 +152,17 @@ Requirements:
 (c) Changes in part parameters must be calculated to realistic process tolerances.
 (d) The response should be JSON only, with no additional text.
 """
+
     prompt = (
-        f"[FEATURES CONTEXT from doc_type='feat']:\n{feat_context}\n\n"
-        "Here is a technical drawing showing multiple orthographic views of the part:\n"
-        " - FrontView (top-left)\n"
-        " - BackView (top-center)\n"
-        " - LeftView (right side)\n"
-        " - BottomView (bottom)\n"
-        " - TopView (center)\n"
-        " - RightView (left side)\n\n"
-        "The views are arranged in a clockwise order starting from the top-left corner:\n"
-        " 1. FrontView\n"
-        " 2. BackView\n"
-        " 3. LeftView\n"
-        " 4. BottomView\n"
-        " 5. TopView\n"
-        " 6. RightView\n\n"
-        "Now follow these instructions:\n"
+        f"[STAT CONTEXT from doc_type='stat']:\n{stat_context}\n\n"
         f"{original_english_prompt}\n\n"
-        f"File name (input): {image_path}\n\n"
+        f"File name (input): {os.path.basename(image_path)}\n\n"
         "Important:\n"
         "- Provide only JSON, ending with the '}' character (no extra text).\n"
-        "Your answer must end with '}'. No more text after the closing brace.\n"
+        "Your answer must end with '}'. No more text after the closing brace."
     )
 
-    # 3.4. Формирование сообщений для модели Qwen2.5-VL
+    # Формируем сообщения для Qwen2.5-VL
     messages = [[{
         "role": "user",
         "content": [
@@ -189,23 +170,21 @@ Requirements:
             {"type": "text", "text": prompt}
         ]
     }]]
-    
+
     text_prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     if isinstance(text_prompt, list):
         text_prompt = text_prompt[0]
-    
+
     inputs = processor(text=[text_prompt], images=[image], return_tensors="pt")
-    for key, tensor in inputs.items():
-        inputs[key] = tensor.to(model.device)
-    
+    for k, v in inputs.items():
+        inputs[k] = v.to(model.device)
+
     with torch.no_grad():
         outputs = model.generate(**inputs, max_new_tokens=1024, do_sample=False)
-    
     json_response = processor.batch_decode(outputs, skip_special_tokens=True)[0]
     return json_response
 
-# === 4) Пример запуска ===
+# === ПРИМЕР ЗАПУСКА ===
 if __name__ == "__main__":
-    # Допустим, у вас есть файл fng.jpg (2D проекция)
-    result = generate_json_from_image_with_rag("fng.jpg")
+    result = generate_json_from_image_with_rag_stat("fng.jpg")
     print(result)

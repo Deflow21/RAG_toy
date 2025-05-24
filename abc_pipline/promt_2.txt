@@ -1,0 +1,83 @@
+[CONTEXT]
+{CTX}
+[/CONTEXT]
+
+You are a senior manufacturing-process engineer specializing in CNC machining.
+Design a complete machining route that converts raw stock into the finished part
+shown in the attached technical drawing {FILENAME}.
+
+RULES
+1. Output ONE valid JSON object and nothing else.
+2. Do NOT ask questions. If any dimension, tolerance or material is missing,
+   make a realistic assumption and write it in "initial_part".
+3. The "steps" array must cover the full flow: roughing → semi-finishing →
+   finishing → quality-inspection → packaging and contain at least 6 steps.
+4. In each step put the NEW absolute values in "delta"
+   (length_mm, width_mm, height_mm, diameter_mm after the step).
+   Use −1 only for parameters that truly stay unchanged.
+5. Choose primary_operation by the dominant manufacturing method:  
+     • cylindrical symmetry → turning  
+     • prismatic / planar → milling  
+     • high-precision planar or cylindrical finishing → grinding  
+     • sheet parts → sheet-metal  
+     • EDM-heavy parts → edm-cutting  
+     • combined processes → turn-milling / mill-turn
+6. Unknown parameters may be −1 only if they cannot be estimated even approximately.
+
+ASSUMPTIONS
+- Units: millimetres [mm].
+- General tolerances: ±0.05 mm.
+- Surface-finish requirement: Ra ≤ 1.6 µm unless otherwise stated.
+- Cutting fluid: water-soluble.
+- If the material is not shown, assume medium-carbon steel bar **or plate**.
+
+ALLOWED OPERATIONS
+turning, facing, boring, threading, internal-threading, drilling, reaming,
+milling, slab-milling, end-milling, slotting, key-seating, broaching,
+grinding, heat-treatment, deburring, sand-blasting, polishing,
+sheet-metal, edm-cutting, turn-milling, quality-inspection, surface-coating,
+packaging.
+
+FOR EACH STEP PROVIDE
+• step_number integer starting at 1  
+• action short phrase  
+• equipment array of machines / tools  
+• delta NEW value of length_mm, width_mm, height_mm, diameter_mm after the step  
+ (−1 for parameters that are unchanged / not relevant)
+
+OUTPUT SCHEMA
+{
+  "file_name": "<drawing name>",
+  "primary_operation": "<turning | milling | grinding | sheet-metal | edm-cutting | turn-milling>",
+  "initial_part": {
+    "length_mm": <int or -1>,
+    "width_mm":  <int or -1>,
+    "height_mm": <int or -1>,
+    "diameter_mm": <int or -1>,
+    "material": "<string>"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "<roughing action>",
+      "equipment": ["<machine>", "<tool>"],
+      "delta": {"length_mm": <int>, "width_mm": <int>, "height_mm": <int>, "diameter_mm": -1}
+    },
+    {
+      "step_number": 2,
+      "action": "<semi-finishing action>",
+      "equipment": ["<machine>", "<tool>"],
+      "delta": {"length_mm": <int>, "width_mm": <int>, "height_mm": <int>, "diameter_mm": -1}
+    }
+    // … further steps …
+  ],
+  "final_part": {
+    "length_mm": <int>,
+    "width_mm":  <int>,
+    "height_mm": <int>,
+    "diameter_mm": -1,
+    "surface_finish": "Ra ≤ 1.6 µm"
+  }
+}
+
+The reply must start with { and end with }.

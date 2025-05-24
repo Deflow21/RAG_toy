@@ -1,0 +1,30 @@
+{
+  "file_name": "cool_detail.pdf",
+  "primary_operation": "turning",
+  "initial_part": {
+    "length_mm": 120,
+    "diameter_mm": 40,
+    "material": "steel"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "facing both ends",
+      "equipment": [
+        "CNC lathe",
+        "carbide facing insert"
+      ],
+      "delta": {
+        "length_mm": 118,
+        "diameter_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1
+      }
+    }
+  ],
+  "final_part": {
+    "length_mm": 110,
+    "diameter_mm": 38,
+    "surface_finish": "Ra 1.2 µm"
+  }
+}

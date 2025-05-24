@@ -1,0 +1,138 @@
+{
+  "file_name": "00005418.pdf",
+  "primary_operation": "milling",
+  "initial_part": {
+    "length_mm": 100,
+    "width_mm": 50,
+    "height_mm": 20,
+    "diameter_mm": -1,
+    "material": "medium-carbon steel bar"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "roughing milling",
+      "equipment": [
+        "mill-turn"
+      ],
+      "delta": {
+        "length_mm": 90,
+        "width_mm": 40,
+        "height_mm": 15,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 2,
+      "action": "semi-finishing milling",
+      "equipment": [
+        "mill-turn"
+      ],
+      "delta": {
+        "length_mm": 85,
+        "width_mm": 35,
+        "height_mm": 12,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 3,
+      "action": "finishing milling",
+      "equipment": [
+        "mill-turn"
+      ],
+      "delta": {
+        "length_mm": 80,
+        "width_mm": 30,
+        "height_mm": 8,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 4,
+      "action": "drilling",
+      "equipment": [
+        "drill"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": 10
+      }
+    },
+    {
+      "step_number": 5,
+      "action": "reaming",
+      "equipment": [
+        "reamer"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": 9
+      }
+    },
+    {
+      "step_number": 6,
+      "action": "deburring",
+      "equipment": [
+        "deburring tool"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 7,
+      "action": "quality-inspection",
+      "equipment": [
+        "micrometer",
+        "coordinate measuring machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 8,
+      "action": "polishing",
+      "equipment": [
+        "polishing machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 9,
+      "action": "packaging",
+      "equipment": [
+        "packaging machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    }
+  ],
+  "final_part": {
+    "length_mm": 80,
+    "width_mm": 30,
+    "height_mm": 8,
+    "diameter_mm": -1,
+    "surface_finish": "Ra ≤ 1.6 µm"
+  }
+}

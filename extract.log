@@ -1,0 +1,92 @@
+
+=== Extracting work\7z\abc_0000_feat_v00.7z ===
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+
+Scanning the drive for archives:
+1 file, 4540344570 bytes (4331 MiB)
+
+Extracting archive: work\7z\abc_0000_feat_v00.7z
+--
+Path = work\7z\abc_0000_feat_v00.7z
+Type = 7z
+Physical Size = 4540344570
+Headers Size = 146105
+Method = LZMA2:24
+Solid = +
+Blocks = 12
+
+Everything is Ok
+
+Folders: 10000
+Files: 7168
+Size:       23620568025
+Compressed: 4540344570
+
+=== Extracting work\7z\abc_0000_feat_v00.7z ===
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+
+Scanning the drive for archives:
+1 file, 4540344570 bytes (4331 MiB)
+
+Extracting archive: work\7z\abc_0000_feat_v00.7z
+--
+Path = work\7z\abc_0000_feat_v00.7z
+Type = 7z
+Physical Size = 4540344570
+Headers Size = 146105
+Method = LZMA2:24
+Solid = +
+Blocks = 12
+
+Everything is Ok
+
+Folders: 10000
+Files: 7168
+Size:       23620568025
+Compressed: 4540344570
+
+=== Extracting abc_0000_feat_v00.7z ===
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+
+Scanning the drive for archives:
+1 file, 4540344570 bytes (4331 MiB)
+
+Extracting archive: work\7z\abc_0000_feat_v00.7z
+--
+Path = work\7z\abc_0000_feat_v00.7z
+Type = 7z
+Physical Size = 4540344570
+Headers Size = 146105
+Method = LZMA2:24
+Solid = +
+Blocks = 12
+
+Everything is Ok
+
+Folders: 10000
+Files: 7168
+Size:       23620568025
+Compressed: 4540344570
+
+=== Extracting abc_0000_feat_v00.7z ===
+
+7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+
+
+Extracting archive: 
+--
+Path = 
+Type = tar
+Code Page = UTF-8
+Characteristics = ASCII
+
+Everything is Ok
+
+Files: 0
+Size:       0
+Compressed: 0
+
+=== Extracting abc_0000_feat_v00.7z ===

@@ -8,8 +8,8 @@ SEVEN_ZIP_PATH = r"E:\7-Zip\7z.exe"
 
 # Словарь с категориями и ссылками
 datasets = {
-    "feat": [
-        "https://archive.nyu.edu/rest/bitstreams/89087/retrieve"
+    "stat": [
+        "https://archive.nyu.edu/rest/bitstreams/89086/retrieve"
     ]
 }
 

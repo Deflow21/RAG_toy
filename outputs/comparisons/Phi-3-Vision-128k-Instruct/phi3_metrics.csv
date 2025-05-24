@@ -1,0 +1,6 @@
+model,image,output_path,time_sec,length_chars,success,valid_json,num_steps
+Phi-3-Vision-128k-Instruct,00002839_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Phi-3-Vision-128k-Instruct\00002839_page_1.jpg.json,49.55,4386,True,False,0
+Phi-3-Vision-128k-Instruct,00000102_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Phi-3-Vision-128k-Instruct\00000102_page_1.jpg.json,49.57,6007,True,False,0
+Phi-3-Vision-128k-Instruct,00009735_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Phi-3-Vision-128k-Instruct\00009735_page_1.jpg.json,49.64,4626,True,False,0
+Phi-3-Vision-128k-Instruct,00000240_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Phi-3-Vision-128k-Instruct\00000240_page_1.jpg.json,49.7,4416,True,False,0
+Phi-3-Vision-128k-Instruct,00000116_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Phi-3-Vision-128k-Instruct\00000116_page_1.jpg.json,50.48,4161,True,False,0

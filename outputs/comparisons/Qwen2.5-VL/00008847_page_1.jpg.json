@@ -1,0 +1,135 @@
+system
+You are a helpful assistant.
+user
+[STAT CONTEXT from doc_type='stat']:
+No matching stat document found.
+
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): 00008847_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+assistant
+```json
+{
+    "File name": "00008847_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 100,
+        "Width": 100,
+        "Height/thickness": 10,
+        "Weight": 1000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Rough milling of the base shape",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 95,
+                "Width": 95,
+                "Height/thickness": 5,
+                "Weight": 950
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing milling of the base shape",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 5,
+                "Weight": 900
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes for fastening",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 5,
+                "Weight": 900
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Milling the decorative elements",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 85,
+                "Width": 85,
+                "Height/thickness": 5,
+                "Weight": 850
+            }
+        },
+        {
+            "Step number": 5,
+            "Action": "Final finishing of the decorative elements",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 80,
+                "Width": 80,
+                "Height/thickness": 5,
+                "Weight": 800
+            }
+        }
+    ]
+}
+```

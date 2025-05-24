@@ -1,0 +1,1723 @@
+Файл: 00000102_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00000102_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00000102_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 1000,
+        "Height/thickness": 1000,
+        "Weight": 1000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 950,
+                "Height/thickness": 950,
+                "Weight": 950
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 940,
+                "Weight": 940
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 940,
+                "Weight": 940
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Fillet corners",
+            "Equipment": ["Endmill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 940,
+                "Weight": 940
+            }
+        },
+        {
+            "Step number": 5,
+            "Action": "Polishing",
+            "Equipment": ["Polisher"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 940,
+                "Weight": 940
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00000116_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00000116_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00000116_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 100,
+        "Width": 100,
+        "Height/thickness": 10,
+        "Weight": 1000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 95,
+                "Width": 95,
+                "Height/thickness": 9,
+                "Weight": 950
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 8,
+                "Weight": 900
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 8,
+                "Weight": 900
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Boring holes",
+            "Equipment": ["Boring machine"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 8,
+                "Weight": 900
+            }
+        },
+        {
+            "Step number": 5,
+            "Action": "Polishing the surface",
+            "Equipment": ["Polishing machine"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 8,
+                "Weight": 900
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00000182_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00000182_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00000182_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 500,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 450,
+                "Height/thickness": 90,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 435,
+                "Height/thickness": 80,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00000237_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00000237_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00000237_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 500,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 450,
+                "Height/thickness": 90,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 435,
+                "Height/thickness": 80,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00000240_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00000240_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00000240_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 500,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 450,
+                "Height/thickness": 90,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 435,
+                "Height/thickness": 80,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00002839_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00002839_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00002839_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 1000,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 950,
+                "Height/thickness": 95,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 94,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 94,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 935,
+                "Height/thickness": 93.5,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00002854_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00002854_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00002854_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 1000,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 950,
+                "Height/thickness": 95,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 94,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 940,
+                "Height/thickness": 94,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 935,
+                "Height/thickness": 93.5,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00008847_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00008847_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00008847_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 1000,
+        "Width": 500,
+        "Height/thickness": 100,
+        "Weight": 10000
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 950,
+                "Width": 450,
+                "Height/thickness": 90,
+                "Weight": 9500
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 940,
+                "Width": 440,
+                "Height/thickness": 85,
+                "Weight": 9400
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 935,
+                "Width": 435,
+                "Height/thickness": 80,
+                "Weight": 9350
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+
+Файл: 00009735_page_1.jpg
+Результат:
+system
+You are a helpful assistant.
+user
+[FEATURES CONTEXT from doc_type='feat']:
+[model_id=00004728]
+Extrusion summary: vert_indices=[860, 1046, 184, 198, 64, 65]; vert_parameters=[[486.6376371593003, 500032.89840802975], [486.63768953851576, 500032.3984100906], [0.0, 500032.35739117855], [1000.0, 500032.43128229905], [-5.204170427930421e-15, 500032.85739117855], [1000.0, 500032.93128229905]]; face_indices=[29997, 29998, 29999, 30000]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[3.04125568105115, 500000.5, 2.44436174654402], [2.5323581116067, 500000.5, 2.44436174654402], [2.11232772966226, 500000.5, 2.63197025348846]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[437, 540, 108, 23, 24, 112]; vert_parameters=[[548.7935422918064, 1.500000000000001], [548.7935401026563, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42770, 42771, 42772, 42773]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-27.927585348893402, -38.2130656411098, 46.196296756295396], [-28.3256096139872, -38.2130656411098, 46.695025955931], [-28.3256096139872, -38.2130656411098, 47.6157567860274]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003438]
+Extrusion summary: vert_indices=[3835, 4611, 314, 315, 457, 458]; vert_parameters=[[472.9449285243713, 0.25400000000000417], [472.9449285243713, 0.0], [7.530355350374458e-13, 0.2540000000000041], [1000.0000000000007, 0.2540000000000042], [1000.0000000000007, 0.0], [7.530355350374458e-13, 0.0]]; face_indices=[75064, 75065, 75066, 75067]; direction=[0.0, 0.0, -1.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-14.5928944758553, 18.731904319591, 73.65494], [-14.056172500002301, 18.731904319591, 73.65494], [-13.650190492626301, 18.8850077037285, 73.65494]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[966, 368, 33, 135, 34, 134]; vert_parameters=[[453.3487620732285, 500032.7273600328], [453.3345296279714, 500032.2273591918], [1000.0, 500032.2717743621], [1000.0, 500032.7717743621], [0.0, 500032.21319540724], [-6.938893903907228e-15, 500032.7131954073]]; face_indices=[29965, 29966, 29967, 29968]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-4.3081366800599605, 500000.5, 4.9994832743218005], [-4.2838311245044, 500000.5, 4.0834676493218], [-3.8448120272821797, 500000.5, 3.60874976737735]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[939, 1533, 118, 119, 320, 319]; vert_parameters=[[507.0083335346696, 500031.92207772186], [507.0773843217693, 500031.42209737067], [3.469446951953614e-15, 500031.75925086084], [1000.0, 500032.0465902101], [0.0, 500031.25925086084], [1000.0, 500031.5465902101]]; face_indices=[30234, 30235, 30236, 30237]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[8.89433727827337, 500000.5, 7.121662093766241], [8.26239283382893, 500000.5, 7.121662093766241], [7.81425915327337, 500000.5, 6.60896678126624]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2337, 461, 41, 294, 293, 45]; vert_parameters=[[539.2952346807601, 1.500000000000001], [539.2952683400629, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013], [0.0, 0.800000000000002]]; face_indices=[42498, 42499, 42500, 42501]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.0294411969729, -38.2130656411098, 48.868574126458], [-45.4910054802894, -38.2130656411098, 48.2319750759617], [-45.4910054802894, -38.2130656411098, 47.174573263272904]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1008, 387, 169, 43, 171, 46]; vert_parameters=[[482.185168894939, 500032.82207623], [482.2552602010362, 500032.32206880784], [-3.469446951953614e-15, 500032.8746808528], [0.0, 500032.3746808528], [1000.0, 500032.7711404772], [1000.0, 500032.2711404772]]; face_indices=[29973, 29974, 29975, 29976]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-2.85132244394885, 500000.5, 7.1778686909884595], [-3.47719049950441, 500000.5, 7.1778686909884595], [-3.85012886755996, 500000.5, 6.7699910868218005]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2501, 2479, 368, 369, 380, 379]; vert_parameters=[[569.653291137607, 1.500000000000001], [569.6532658567236, 0.800000000000002], [0.0, 0.800000000000002], [1000.0, 0.800000000000002], [1000.0, 1.5000000000000013], [0.0, 1.5000000000000013]]; face_indices=[42596, 42597, 42598, 42599]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-43.0764847878232, -38.2130656411098, 47.4071537073337], [-43.0764847878232, -38.2130656411098, 48.7714657967213], [-41.129522720015096, -38.2130656411098, 48.7714657967213]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1098, 1130, 253, 273, 272, 252]; vert_parameters=[[537.9840187366657, 500026.39717460045], [537.9655948988003, 500025.89717974904], [1000.0, 500026.33513543487], [0.0, 500026.1223051447], [1000.0, 500025.83513543487], [3.469446951953614e-15, 500026.6223051447]]; face_indices=[16729, 16730, 16731, 16732]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[19.3358520352178, 500000.5, 3.65128448959958], [19.7179049866067, 500000.5, 4.19739994098847], [19.7179049866067, 500000.5, 5.15595028821069]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[967, 367, 33, 32, 49, 135]; vert_parameters=[[529.5622738864151, 500032.83413375914], [529.6330451215679, 500032.33414278517], [0.0, 500032.271774362], [1000.0, 500032.3951685262], [1000.0000000000056, 500032.89516852616], [-3.469446951953614e-15, 500032.7717743621]]; face_indices=[29969, 29970, 29971, 29972]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-3.8448120272821797, 500000.5, 3.60874976737735], [-3.40579293005996, 500000.5, 3.13403188543291], [-2.6082668883933002, 500000.5, 3.13403188543291]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2334, 459, 40, 289, 290, 44]; vert_parameters=[[469.05849971722154, 1.500000000000001], [469.05860530434416, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000013], [1000.0, 0.800000000000002]]; face_indices=[42490, 42491, 42492, 42493]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-45.212868042031204, -38.2130656411098, 52.181047151921994], [-45.212868042031204, -38.2130656411098, 51.1979751718711], [-44.752502626983, -38.2130656411098, 50.5685693309849]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00003978]
+Extrusion summary: vert_indices=[231, 232, 6, 5, 4]; vert_parameters=[[3079.535836157424, 3.7520430706446404], [3079.9121510801583, 3.679681618662782], [3017.479018725055, 3.7520430706446404], [3141.592653589793, 3.7520430706446404], [3141.592653589793, 3.6066772668851597]]; face_indices=[889, 890, 891]; direction=[0.0, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 3, 'knots': [0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0], 'poles': [[-12.0, -7.0, 7.0], [-12.0, -7.0, 15.1362968608737], [-13.1333619356155, -7.0, 30.0], [0.0, -7.0, 30.0]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0, 1.0]};
+
+[model_id=00001186]
+Extrusion summary: vert_indices=[16997, 3393, 3537, 777, 943, 778, 942]; vert_parameters=[[483.43808669212876, 1.0], [450.3142600763863, 2.0], [450.3142600763863, 0.0], [0.0, 2.0], [0.0, 0.0], [1000.0, 2.0], [1000.0, 0.0]]; face_indices=[33297, 33298, 33299, 33300, 33301, 33302]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-70.1052297825097, 2.0, -30.238146890446302], [-70.811571250993, 2.0, -30.238146890446302], [-71.1883536843945, 2.0, -30.5461037326798]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004483]
+Extrusion summary: vert_indices=[2402, 493, 68, 74, 333, 334]; vert_parameters=[[514.2967558102152, 1.5000000000000777], [514.2967813570991, 0.800000000000002], [1000.0, 0.800000000000002], [0.0, 0.800000000000002], [0.0, 1.5000000000000013], [1000.0, 1.5000000000000986]]; face_indices=[42820, 42821, 42822, 42823]; direction=[-4.28626379701574e-16, 1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[-24.7170161262396, -38.2130656411098, 44.4087841681787], [-23.8130694519003, -38.2130656411098, 44.9710533860369], [-23.3227323301431, -38.2130656411098, 46.0500348275562]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+[model_id=00004728]
+Extrusion summary: vert_indices=[1060, 1087, 239, 214, 215, 240]; vert_parameters=[[509.5794831823256, 500031.05138277804], [509.5741649391268, 500030.5513820181], [1000.0, 500030.58738681336], [5.204170427930421e-15, 500030.9352642098], [1000.0, 500031.08738681336], [0.0, 500030.4352642098]]; face_indices=[30436, 30437, 30438, 30439]; direction=[0.0, -1.0, 0.0]; curve={'closed': False, 'continuity': 6, 'degree': 2, 'knots': [0.0, 0.0, 0.0, 1.0, 1.0, 1.0], 'poles': [[11.399328597717801, 500000.5, 4.7738973368218], [10.9846150560511, 500000.5, 4.5148912604329094], [10.9846150560511, 500000.5, 3.96953535765513]], 'rational': False, 'type': 'BSpline', 'weights': [1.0, 1.0, 1.0]};
+
+Here is a technical drawing showing multiple orthographic views of the part:
+ - FrontView (top-left)
+ - BackView (top-center)
+ - LeftView (right side)
+ - BottomView (bottom)
+ - TopView (center)
+ - RightView (left side)
+
+The views are arranged in a clockwise order starting from the top-left corner:
+ 1. FrontView
+ 2. BackView
+ 3. LeftView
+ 4. BottomView
+ 5. TopView
+ 6. RightView
+
+Now follow these instructions:
+Create a detailed description of the technological process of manufacturing a product based on an image providing three dimensions of a 3D model in JPG format. The process should be described in JSON format and include all stages of machining, starting from analysing the drawing and ending with obtaining the finished product. The response should be JSON only, with no additional text. JSON should contain the following information:
+1. File name: the name of the input file with the drawing.
+2. Operation name: the type of the main operation (e.g. turning, milling, grinding, etc.).
+3. Part information: initial parameters of the part (length, width, height/thickness, weight).
+4. Steps: the sequence of operations performed to machine the part. Each step must include:
+4.1. Step number.
+4.2. Description of the step (e.g., 'roughing', 'finishing', 'drilling holes', etc.).
+4.3. The equipment used (e.g. lathe, milling machine, measuring tool, etc.).
+4.4. Changes in the part parameters (length, width, height/thickness, weight) after the step has been executed. If the parameter does not change, specify a value of -1.
+
+JSON example:
+
+{
+    "File name": "Input file name",
+    "Name of operation": "Lathe",
+    "Part information": {
+        "Length": 10,
+        "Width": 10,
+        "Height/thickness": 10,
+        "Weight": 10
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 9,
+                "Width": 9,
+                "Height/thickness": 9,
+                "Weight": 8
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Turning lathe"],
+            "Significance": {
+                "Length": 8.5,
+                "Width": 8.5,
+                "Height/thickness": 8.5,
+                "Weight": 7.5
+            }
+        }
+    ]
+}
+
+Requirements:
+(a) The description of each step shall be as accurate as possible and shall correspond to actual machining processes.
+(b) The equipment used must be specified with respect to the specifics of the operation.
+(c) Changes in part parameters must be calculated to realistic process tolerances.
+(d) The response should be JSON only, with no additional text.
+
+
+File name (input): C:\Users\culic\RAG_toy-3\чертежи\00009735_page_1.jpg
+
+Important:
+- Provide only JSON, ending with the '}' character (no extra text).
+Your answer must end with '}'. No more text after the closing brace.
+
+assistant
+```json
+{
+    "File name": "C:\\Users\\culic\\RAG_toy-3\\чертежи\\00009735_page_1.jpg",
+    "Name of operation": "Milling",
+    "Part information": {
+        "Length": 100,
+        "Width": 100,
+        "Height/thickness": 100,
+        "Weight": 100
+    },
+    "Steps": [
+        {
+            "Step number": 1,
+            "Action": "Roughing the workpiece",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 95,
+                "Width": 95,
+                "Height/thickness": 95,
+                "Weight": 90
+            }
+        },
+        {
+            "Step number": 2,
+            "Action": "Finishing of the surface",
+            "Equipment": ["Mill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 90,
+                "Weight": 85
+            }
+        },
+        {
+            "Step number": 3,
+            "Action": "Drilling holes",
+            "Equipment": ["Drill"],
+            "Significance": {
+                "Length": 90,
+                "Width": 90,
+                "Height/thickness": 90,
+                "Weight": 85
+            }
+        },
+        {
+            "Step number": 4,
+            "Action": "Filing and polishing",
+            "Equipment": ["Filing machine", "Polishing machine"],
+            "Significance": {
+                "Length": 85,
+                "Width": 85,
+                "Height/thickness": 85,
+                "Weight": 80
+            }
+        }
+    ]
+}
+```
+====================================================================================================
+

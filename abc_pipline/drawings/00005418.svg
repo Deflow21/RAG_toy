@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='ASCII' standalone='yes'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1800.0mm" viewBox="0 0 1800.0 1000.0" height="1000.0mm">
+  <g>
+    <g transform="translate(50.0, 565.0) scale(1 1) "><g transform="scale(0.04278169014084507, -0.04278169014084507)   translate(8224.897119341564,-467.4897119341564)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M3550.0,-300.0 L3550.0,0.0 "/>
+			<path d="M-3550.0,-300.0 L-3550.0,0.0 "/>
+			<path d="M3549.999999999999,0.0 L-6.821210263296962e-13,0.0 "/>
+			<path d="M0.0,-300.0 L0.0,0.0 "/>
+			<path d="M3549.999999999999,-300.0 L-6.821210263296962e-13,-300.0 "/>
+			<path d="M-3550.0,0.0 L2.2737367544323206e-13,0.0 "/>
+			<path d="M-3550.0,-300.0 L2.2737367544323206e-13,-300.0 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="303.33333333333337" y="948.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Front view</text>
+    <g transform="translate(646.6666666666667, 565.0) scale(1 1) "><g transform="scale(0.03169014084507042, -0.03169014084507042)   translate(8360.704566734279,-4181.111111111111)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M-1.659800362493837e-12,3550.0 L1.6598003624938378e-12,-3550.0 "/>
+			<path d="M1.8189894035458565e-12,3549.999999999999 L-2049.5934556231687,-6.821210263296962e-13 "/>
+			<path d="M1.9326762412674725e-12,-3550.0 L-2049.5934556231687,2.2737367544323206e-13 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="900.0000000000001" y="948.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Top view</text>
+    <g transform="translate(1243.3333333333335, 565.0) scale(1 1) "><g transform="scale(0.14820012191522428, -0.14820012191522428)   translate(1349.5265551428322,-434.952655514283)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M0.0,300.0 L0.0,0.0 "/>
+			<path d="M-1.8189894035458565e-12,0.0 L2049.5934556231687,0.0 "/>
+			<path d="M2049.59345562317,300.0 L2049.59345562317,0.0 "/>
+			<path d="M-1.8189894035458565e-12,300.0 L2049.5934556231687,300.0 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="1496.6666666666667" y="948.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Right view</text>
+    <g transform="translate(50.0, 60.0) scale(1 1) "><g transform="scale(0.14820012191522428, -0.14820012191522428)   translate(3399.1200107659997,-434.952655514283)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M2.55351295663786e-12,300.0 L2.55351295663786e-12,0.0 "/>
+			<path d="M-2049.59345562317,300.0 L-2049.59345562317,0.0 "/>
+			<path d="M1.9326762412674725e-12,0.0 L-2049.5934556231687,0.0 "/>
+			<path d="M1.9326762412674725e-12,300.0 L-2049.5934556231687,300.0 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="303.33333333333337" y="443.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Left view</text>
+    <g transform="translate(646.6666666666667, 60.0) scale(1 1) "><g transform="scale(0.03169014084507042, -0.03169014084507042)   translate(6311.111111111113,-4181.111111111111)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M1.659800362493837e-12,3550.0 L-1.6598003624938378e-12,-3550.0 "/>
+			<path d="M-1.8189894035458565e-12,3549.999999999999 L2049.5934556231687,-6.821210263296962e-13 "/>
+			<path d="M-1.9326762412674725e-12,-3550.0 L2049.5934556231687,2.2737367544323206e-13 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="900.0000000000001" y="443.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Bottom view</text>
+    <g transform="translate(1243.3333333333335, 60.0) scale(1 1) "><g transform="scale(0.04278169014084507, -0.04278169014084507)   translate(8224.897119341564,-467.4897119341564)" stroke-width="0.2" fill="none">
+       <!-- hidden lines -->
+       <g stroke="rgb(160,160,160)" fill="none" stroke-dasharray="0.2,0.2">
+
+       </g>
+
+       <!-- solid lines -->
+       <g stroke="rgb(0,0,0)" fill="none">
+			<path d="M-3550.0,0.0 L3550.0,0.0 "/>
+			<path d="M-3550.0,-300.0 L-3550.0,0.0 "/>
+			<path d="M-3550.0,-300.0 L3550.0,-300.0 "/>
+			<path d="M3550.0,-300.0 L3550.0,0.0 "/>
+
+       </g>
+    </g>
+    
+</g>
+    <text x="1496.6666666666667" y="443.0" font-size="20" font-family="Times-Roman" font-weight="bold" letter-spacing="0" text-anchor="middle" fill="black">Back view</text>
+    <text x="50" y="30.0" font-size="24" font-family="Verdana" font-weight="bold" letter-spacing="0" text-anchor="start" fill="black">Scale 1:25.24</text>
+  </g>
+</svg>

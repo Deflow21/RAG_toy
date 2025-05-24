@@ -1,0 +1,143 @@
+{
+  "file_name": "00005418.pdf",
+  "primary_operation": "turning",
+  "initial_part": {
+    "length_mm": 125,
+    "width_mm": -1,
+    "height_mm": -1,
+    "diameter_mm": -1,
+    "material": "medium-carbon steel bar"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "facing both ends",
+      "equipment": [
+        "CNC lathe",
+        "carbide facing insert"
+      ],
+      "delta": {
+        "length_mm": 118,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 2,
+      "action": "turning external Ø38 rough",
+      "equipment": [
+        "CNC lathe",
+        "CNMG roughing insert"
+      ],
+      "delta": {
+        "length_mm": 118,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 3,
+      "action": "milling hex 19 across-flats",
+      "equipment": [
+        "CNC turn-mill center",
+        "end mill Ø10"
+      ],
+      "delta": {
+        "length_mm": 118,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 4,
+      "action": "internal threading M10",
+      "equipment": [
+        "CNC lathe",
+        "M10 threading tool"
+      ],
+      "delta": {
+        "length_mm": 118,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 5,
+      "action": "finish cut to length 110",
+      "equipment": [
+        "CNC lathe",
+        "CNMG finishing insert"
+      ],
+      "delta": {
+        "length_mm": 110,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 6,
+      "action": "deburring",
+      "equipment": [
+        "deburring tool"
+      ],
+      "delta": {
+        "length_mm": 110,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 7,
+      "action": "quality-inspection",
+      "equipment": [
+        "CMM",
+        "caliper"
+      ],
+      "delta": {
+        "length_mm": 110,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 8,
+      "action": "polishing",
+      "equipment": [
+        "polishing wheel"
+      ],
+      "delta": {
+        "length_mm": 110,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    },
+    {
+      "step_number": 9,
+      "action": "packaging",
+      "equipment": [
+        "packing station"
+      ],
+      "delta": {
+        "length_mm": 110,
+        "width_mm": 19,
+        "height_mm": -1,
+        "diameter_mm": 38
+      }
+    }
+  ],
+  "final_part": {
+    "length_mm": 110,
+    "width_mm": 19,
+    "height_mm": -1,
+    "diameter_mm": 38,
+    "surface_finish": "Ra ≤ 1.6 µm"
+  }
+}

@@ -1,0 +1,16 @@
+model,image,output_path,time_sec,length_chars,success,valid_json,num_steps
+Blip2-flan-t5-xl,00009735_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Blip2-flan-t5-xl\00009735_page_1.jpg.json,85.77,474,True,False,0
+Blip2-flan-t5-xl,00000182_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Blip2-flan-t5-xl\00000182_page_1.jpg.json,90.42,478,True,False,0
+Blip2-flan-t5-xl,00000102_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Blip2-flan-t5-xl\00000102_page_1.jpg.json,97.61,476,True,False,0
+Blip2-flan-t5-xl,00000240_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Blip2-flan-t5-xl\00000240_page_1.jpg.json,101.8,517,True,False,0
+Blip2-flan-t5-xl,00009996_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Blip2-flan-t5-xl\00009996_page_1.jpg.json,271.51,1663,True,False,0
+Mistral-7B-Instruct,00009996_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Mistral-7B-Instruct\00009996_page_1.jpg.json,331.62,4317,True,False,0
+Mistral-7B-Instruct,00009735_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Mistral-7B-Instruct\00009735_page_1.jpg.json,332.16,4354,True,False,0
+Mistral-7B-Instruct,00000182_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Mistral-7B-Instruct\00000182_page_1.jpg.json,354.79,4359,True,False,0
+Mistral-7B-Instruct,00000240_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Mistral-7B-Instruct\00000240_page_1.jpg.json,384.74,4664,True,False,0
+Mistral-7B-Instruct,00000102_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Mistral-7B-Instruct\00000102_page_1.jpg.json,385.7,4640,True,False,0
+Qwen2.5-VL,00000240_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Qwen2.5-VL\00000240_page_1.jpg.json,235.6,3841,True,False,0
+Qwen2.5-VL,00009996_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Qwen2.5-VL\00009996_page_1.jpg.json,299.22,4165,True,False,0
+Qwen2.5-VL,00000102_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Qwen2.5-VL\00000102_page_1.jpg.json,328.65,4148,True,False,0
+Qwen2.5-VL,00000182_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Qwen2.5-VL\00000182_page_1.jpg.json,413.17,4134,True,False,0
+Qwen2.5-VL,00009735_page_1.jpg,C:\Users\culic\RAG_toy-3\outputs\comparisons\Qwen2.5-VL\00009735_page_1.jpg.json,414.35,4820,True,False,0

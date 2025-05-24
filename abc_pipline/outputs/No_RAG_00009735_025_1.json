@@ -1,0 +1,128 @@
+{
+  "file_name": "00009735.pdf",
+  "primary_operation": "turning",
+  "initial_part": {
+    "length_mm": 50,
+    "width_mm": 50,
+    "height_mm": 50,
+    "diameter_mm": 20,
+    "material": "medium-carbon steel"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "roughing turning",
+      "equipment": [
+        "CNC Turning Lathe",
+        "Cutting Tool"
+      ],
+      "delta": {
+        "length_mm": 48,
+        "width_mm": 48,
+        "height_mm": 48,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 2,
+      "action": "semi-finishing turning",
+      "equipment": [
+        "CNC Turning Lathe",
+        "Cutting Tool"
+      ],
+      "delta": {
+        "length_mm": 46,
+        "width_mm": 46,
+        "height_mm": 46,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 3,
+      "action": "finishing turning",
+      "equipment": [
+        "CNC Turning Lathe",
+        "Cutting Tool"
+      ],
+      "delta": {
+        "length_mm": 44,
+        "width_mm": 44,
+        "height_mm": 44,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 4,
+      "action": "threading",
+      "equipment": [
+        "CNC Turning Lathe",
+        "Threading Tool"
+      ],
+      "delta": {
+        "length_mm": 44,
+        "width_mm": 44,
+        "height_mm": 44,
+        "diameter_mm": 12
+      }
+    },
+    {
+      "step_number": 5,
+      "action": "deburring",
+      "equipment": [
+        "Deburring Tool"
+      ],
+      "delta": {
+        "length_mm": 44,
+        "width_mm": 44,
+        "height_mm": 44,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 6,
+      "action": "quality inspection",
+      "equipment": [
+        "Coordinate Measuring Machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 7,
+      "action": "polishing",
+      "equipment": [
+        "Polishing Machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 8,
+      "action": "packaging",
+      "equipment": [
+        "Packaging Machine"
+      ],
+      "delta": {
+        "length_mm": -1,
+        "width_mm": -1,
+        "height_mm": -1,
+        "diameter_mm": -1
+      }
+    }
+  ],
+  "final_part": {
+    "length_mm": 44,
+    "width_mm": 44,
+    "height_mm": 44,
+    "diameter_mm": -1,
+    "surface_finish": "Ra ≤ 1.6 µm"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "file_name": "00009735.pdf",
+  "primary_operation": "turning",
+  "initial_part": {
+    "length_mm": 127,
+    "width_mm": 25,
+    "height_mm": 25,
+    "diameter_mm": -1,
+    "material": "medium-carbon steel"
+  },
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "roughing to remove excess material",
+      "equipment": [
+        "lathe",
+        "roughing tool"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 2,
+      "action": "semi-finishing to achieve better surface finish",
+      "equipment": [
+        "lathe",
+        "semi-finishing tool"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 3,
+      "action": "finishing to achieve precise dimensions",
+      "equipment": [
+        "lathe",
+        "finishing tool"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 4,
+      "action": "threading the rod ends",
+      "equipment": [
+        "lathe",
+        "threading tool"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 5,
+      "action": "deburring",
+      "equipment": [
+        "deburring tool"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    },
+    {
+      "step_number": 6,
+      "action": "quality inspection",
+      "equipment": [
+        "micrometer",
+        "caliper"
+      ],
+      "delta": {
+        "length_mm": 127,
+        "width_mm": 25,
+        "height_mm": 25,
+        "diameter_mm": -1
+      }
+    }
+  ],
+  "final_part": {
+    "length_mm": 127,
+    "width_mm": 25,
+    "height_mm": 25,
+    "diameter_mm": -1,
+    "surface_finish": "Ra ≤ 1.6 µm"
+  }
+}
